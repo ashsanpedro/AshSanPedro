@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
     standalone: true,
     template: `
     <footer class="bg-gray-800 text-white text-center py-4 mt-auto">
-  <div class="container mx-auto">
+    <div class="container mx-auto">
     <p>&copy; 2024 Ashley</p>
     <p>{{ currentTime }}</p>
   </div>

@@ -14,11 +14,12 @@ import { WorksComponent } from './pages/works/works.component';
   imports: [RouterOutlet, Navbar, Footer, HomeComponent, AboutComponent, WorksComponent],
   template: `
   
-  <div class="flex flex-col min-h-screen bg-[url('/images/bg.jpg')] bg-cover bg-center">
+  <div class="flex flex-col min-h-screen bg-[url('/images/macosDark.jpg')] bg-cover bg-center">
+    <div class="fixed bottom-4 right-4 h-[50px] w-[50px] border border-white"><button class=""></button></div>
     <navbar class="flex justify-center"></navbar>
 
     <!-- Main content area -->
-    <main class="flex-grow text-white mx-10">
+    <main class="flex-grow text-white mx-48 mt-32">
      <router-outlet></router-outlet>
     </main>
 

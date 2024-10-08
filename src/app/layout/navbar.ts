@@ -9,20 +9,20 @@ import { CommonModule } from '@angular/common';
     imports: [RouterModule, CommonModule],
     standalone: true,
     template: `
-      <nav class="flex justify-center bg-transparent py-10">
+      <nav class="fixed bg-transparent py-10">
         <ul
-          class="relative flex justify-center bg-white bg-opacity-30 text-white font-light w-[268px] px-1 py-1 border-none rounded-full"
+          class="relative flex space-x-3 bg-gunsmoke-400 bg-opacity-60 text-white font-light w-[281px] px-1 py-1 border-none rounded-full"
         >
           <!-- Sliding background effect -->
           <div
-            class="absolute top-1 bottom-0 left-1 right-1 w-[87px] h-[24px] bg-gray-900 border-solid border-2 border-gray-300 rounded-full transition-all duration-500 ease-in-out"
-            [ngStyle]="{ transform: activeLinkTransform }"
+            class="absolute top-1 bottom-0 left-1 right-1 w-[87px] h-[24px] bg-gunsmoke-900 bg-opacity-90 border-solid border border-gunsmoke-500 rounded-full transition-all duration-500 ease-in-out"
+            [ngStyle]="{ transform: (activeLinkTransform) }"
           ></div>
 
           <li class="relative z-10">
             <a
               routerLink="/home"
-              class="py-1 px-3 rounded-full transition duration-200 ease-in-out"
+              class="py-1 px-3 rounded-full transition duration-800 ease-in-out"
               (click)="setActiveLink('/home')"
               [ngClass]="{ 'text-white': isActive('/home') }"
               >Home</a
@@ -31,7 +31,7 @@ import { CommonModule } from '@angular/common';
           <li class="relative z-10">
             <a
               routerLink="/about"
-              class="py-1 px-3 rounded-full transition duration-200 ease-in-out"
+              class="py-1 px-3 rounded-full transition duration-800 ease-in-out"
               (click)="setActiveLink('/about')"
               [ngClass]="{ 'text-white': isActive('/about') }"
               >About me</a
@@ -40,7 +40,7 @@ import { CommonModule } from '@angular/common';
           <li class="relative z-10">
             <a
               routerLink="/works"
-              class="py-1 px-3 rounded-full transition duration-200 ease-in-out"
+              class="py-1 px-3 rounded-full transition duration-800 ease-in-out"
               (click)="setActiveLink('/works')"
               [ngClass]="{ 'text-white': isActive('/works') }"
               >Works</a
@@ -52,12 +52,6 @@ import { CommonModule } from '@angular/common';
   })
   export class Navbar {
     logo: string = '{ A }';
-
-    // constructor(private router: Router) {}
-
-    // isActive(route: string): boolean {
-    //     return this.router.url === route;
-    // }
 
     activeLinkTransform = 'translateX(20)';
 
@@ -71,7 +65,7 @@ import { CommonModule } from '@angular/common';
     // Set the transform property to move the sliding background
     setActiveLink(route: string): void {
       const index = ['/home', '/about', '/works'].indexOf(route);
-      this.activeLinkTransform = `translateX(${index *86}px)`; // 
+      this.activeLinkTransform = `translateX(${index * 93}px)`; // 
     }
   }
 
