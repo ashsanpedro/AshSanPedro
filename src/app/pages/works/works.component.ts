@@ -4,8 +4,12 @@ import { Component } from '@angular/core';
   selector: 'app-works',
   standalone: true,
   imports: [],
-  templateUrl: './works.component.html',
-  styleUrl: './works.component.css'
+  template: `
+  
+  <h1>works gumagana</h1>
+
+  `,
+  styles: ``
 })
 export class WorksComponent {
 

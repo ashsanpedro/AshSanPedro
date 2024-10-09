@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+  darkMode: 'class',
   content: ['./src/**/*.{html,ts}'],
   theme: {
     extend: {
@@ -16,6 +17,14 @@ module.exports = {
           '800': '#454545',
           '900': '#3d3d3d',
           '950': '#262626',
+      },
+      transitionProperty: {
+        'bg-color': 'background-color',
+        'text-color': 'color',
+        'colors': 'background-color, color',
+      },
+      boxShadow: {
+        shadowko: '0 2px 7px rgba(235, 235, 235, 0.3)',
       },
       }
     },

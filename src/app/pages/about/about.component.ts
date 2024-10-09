@@ -4,8 +4,12 @@ import { Component } from '@angular/core';
   selector: 'app-about',
   standalone: true,
   imports: [],
-  templateUrl: './about.component.html',
-  styleUrl: './about.component.css'
+  template: `
+
+  <h1>about gumagana</h1>
+
+  `,
+  styles: ``
 })
 export class AboutComponent {
 

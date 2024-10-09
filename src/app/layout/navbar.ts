@@ -11,20 +11,25 @@ import { CommonModule } from '@angular/common';
     template: `
       <nav class="fixed bg-transparent py-10">
         <ul
-          class="relative flex space-x-3 bg-gunsmoke-400 bg-opacity-60 text-white font-light w-[281px] px-1 py-1 border-none rounded-full"
+          class="relative flex space-x-3 font-light w-[281px] px-1 py-1 rounded-full shadow-md 
+          bg-white bg-opacity-70 text-gunsmoke-900 border-none
+          dark:bg-gunsmoke-400 dark:bg-opacity-60 dark:text-gunsmoke-100"
         >
           <!-- Sliding background effect -->
           <div
-            class="absolute top-1 bottom-0 left-1 right-1 w-[87px] h-[24px] bg-gunsmoke-900 bg-opacity-90 border-solid border border-gunsmoke-500 rounded-full transition-all duration-500 ease-in-out"
+            class="absolute top-1 bottom-0 left-1 right-1 w-[87px] h-[24px] rounded-full transition-all duration-500 ease-in-out
+            bg-gunsmoke-900 bg-opacity-30
+            dark:bg-gunsmoke-900 dark:bg-opacity-90 "
             [ngStyle]="{ transform: (activeLinkTransform) }"
           ></div>
 
           <li class="relative z-10">
             <a
               routerLink="/home"
-              class="py-1 px-3 rounded-full transition duration-800 ease-in-out"
+              class="py-1 px-3 rounded-full transition duration-800 ease-in-out
+              text"
               (click)="setActiveLink('/home')"
-              [ngClass]="{ 'text-white': isActive('/home') }"
+              [ngClass]="{ 'text-black dark:text-white': isActive('/home') }"
               >Home</a
             >
           </li>
@@ -33,7 +38,7 @@ import { CommonModule } from '@angular/common';
               routerLink="/about"
               class="py-1 px-3 rounded-full transition duration-800 ease-in-out"
               (click)="setActiveLink('/about')"
-              [ngClass]="{ 'text-white': isActive('/about') }"
+              [ngClass]="{ 'text-black dark:text-white': isActive('/about') }"
               >About me</a
             >
           </li>
@@ -42,7 +47,7 @@ import { CommonModule } from '@angular/common';
               routerLink="/works"
               class="py-1 px-3 rounded-full transition duration-800 ease-in-out"
               (click)="setActiveLink('/works')"
-              [ngClass]="{ 'text-white': isActive('/works') }"
+              [ngClass]="{ 'text-black dark:text-white': isActive('/works') }"
               >Works</a
             >
           </li>
