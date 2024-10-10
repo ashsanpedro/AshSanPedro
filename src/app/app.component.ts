@@ -60,6 +60,7 @@ import { DarkModeService } from './layout/darkMode/darkMode.service';
       </main>
 
       <!-- Footer -->
+       <!-- Footer -->
     </div>
   `,
 })

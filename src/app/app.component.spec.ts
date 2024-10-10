@@ -1,5 +1,6 @@
 import { TestBed } from '@angular/core/testing';
 import { AppComponent } from './app.component';
+import { withJsonpSupport } from '@angular/common/http';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
