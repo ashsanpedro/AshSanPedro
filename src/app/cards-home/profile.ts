@@ -10,7 +10,7 @@ import { Component } from "@angular/core";
     // animations: [fadeAnimation],
     template: `
       <!-- Profile -->
-        <div class="flex items-center justify-center w-full h-full rounded-2xl p-16 shadow-lg animate-floating transition backdrop-blur bg-gunsmoke-50 bg-opacity-60 dark:bg-gunsmoke-400 dark:bg-opacity-60">
+        <div class="animate-pulse  flex items-center justify-center w-full h-full rounded-2xl p-16 shadow-lg animate-floating transition backdrop-blur bg-gunsmoke-50 bg-opacity-60 dark:bg-gunsmoke-400 dark:bg-opacity-60">
             <div class="grid grid-cols-4 grid-rows-4 gap-1 h-[200px]">
 
                 <div class="row-span-2 mr-4 flex items-center"><img class="bg-transparent rounded-full shadow-[inset_1px_5px_6px_rgba(0,0,0,0.3)]" src="images/profile.png" alt="profile"></div>
