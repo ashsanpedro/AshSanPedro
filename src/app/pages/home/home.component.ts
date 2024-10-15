@@ -25,41 +25,41 @@ import { CommonModule } from '@angular/common';
     <!-- Right Container -->
     <div class="grid grid-cols-5 grid-rows-7 gap-3 w-[49%] h-full">
         <div class="col-span-2 row-span-3 rounded-xl shadow-md backdrop-blur
-        bg-gunsmoke-50 bg-opacity-40 
+        bg-gunsmoke-50 bg-opacity-60 
         dark:bg-gunsmoke-900 dark:bg-opacity-60 dark:shadow-md"></div>
 
         <div class="col-span-2 row-span-3 col-start-3 rounded-xl shadow-md backdrop-blur 
-        bg-gunsmoke-50 bg-opacity-40 
+        bg-gunsmoke-50 bg-opacity-60 
         dark:bg-gunsmoke-900 dark:bg-opacity-60 dark:shadow-md"></div>
 
         <div class="row-span-7 col-start-5 rounded-xl backdrop-blur-sm bg-gunsmoke-900 bg-opacity-50 border border-gunsmoke-600"></div>
 
         <div class="col-span-2 col-start-3 row-start-4 rounded-lg shadow-md backdrop-blur 
-        bg-gunsmoke-50 bg-opacity-40 
+        bg-gunsmoke-50 bg-opacity-60 
         dark:bg-gunsmoke-900 dark:bg-opacity-60 dark:shadow-md"></div>
 
         <div class="col-span-2 row-span-3 col-start-3 row-start-5 rounded-xl shadow-md backdrop-blur 
-        bg-gunsmoke-50 bg-opacity-40 
+        bg-gunsmoke-50 bg-opacity-60 
         dark:bg-gunsmoke-900 dark:bg-opacity-60 dark:shadow-md"></div>
 
         <div class="col-span-2 row-span-2 col-start-1 row-start-6 rounded-xl shadow-md backdrop-blur
-        bg-gunsmoke-50 bg-opacity-40 
+        bg-gunsmoke-50 bg-opacity-60 
         dark:bg-gunsmoke-900 dark:bg-opacity-60 dark:shadow-md"></div>
 
         <div class="col-start-1 row-start-4 rounded-lg shadow-md backdrop-blur
-        bg-gunsmoke-50 bg-opacity-40 
+        bg-gunsmoke-50 bg-opacity-60
         dark:bg-gunsmoke-900 dark:bg-opacity-60 dark:shadow-md"></div>
 
         <div class="col-start-2 row-start-4 rounded-lg shadow-md backdrop-blur
-        bg-gunsmoke-50 bg-opacity-40 
+        bg-gunsmoke-50 bg-opacity-60
         dark:bg-gunsmoke-900 dark:bg-opacity-60 dark:shadow-md"></div>
 
         <div class="col-start-1 row-start-5 rounded-lg shadow-md backdrop-blur
-        bg-gunsmoke-50 bg-opacity-40 
+        bg-gunsmoke-50 bg-opacity-60 
         dark:bg-gunsmoke-900 dark:bg-opacity-60 dark:shadow-md"></div>
         
         <div class="col-start-2 row-start-5 rounded-lg shadow-md backdrop-blur
-        bg-gunsmoke-50 bg-opacity-40 
+        bg-gunsmoke-50 bg-opacity-60 
         dark:bg-gunsmoke-900 dark:bg-opacity-60 dark:shadow-md"></div>
     </div>
   </div>

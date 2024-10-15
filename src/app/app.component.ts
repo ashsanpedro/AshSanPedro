@@ -28,9 +28,10 @@ import { DarkModeService } from './layout/darkMode/darkMode.service';
     CommonModule,
   ],
   template: `
+     
     <div *ngIf="isLoading" class="flex justify-center items-center h-screen">
       <div
-        class="border-t-4 border-b-4 border-green-700 dark:border-gray-300 rounded-full w-12 h-12 animate-spin"
+        class="border-4 border-black dark:border-gray-300 rounded-lg w-12 h-12 animate-spin"
       ></div>
     </div>
 
@@ -60,7 +61,7 @@ import { DarkModeService } from './layout/darkMode/darkMode.service';
       </main>
 
       <!-- Footer -->
-       <!-- Footer -->
+       
     </div>
   `,
 })
@@ -69,10 +70,9 @@ export class AppComponent {
   isLoading = true;
 
   constructor(public darkModeService: DarkModeService) {
-    // Simulate loading content
     setTimeout(() => {
       this.isLoading = false;
-    }, 3000); // Spinner shows for 3 seconds
+    }, 2500); // 
   }
 
 }
