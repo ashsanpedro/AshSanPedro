@@ -22,7 +22,7 @@ import { Component } from "@angular/core";
                 <div class="col-span-4 row-span-2 row-start-3 mt-2 text-gunsmoke-800 dark:text-gunsmoke-50">I am passionate about building beautiful and functional user interfaces. Dedicated to continuous learning.</div>
             </div>
             <div class="flex w-full h-full border border-white">
-                <button class=" w-[25px] border border-black">Resume</button>
+                <button class=" w- border border-black">Resume</button>
             </div>
         </div>
     `,
