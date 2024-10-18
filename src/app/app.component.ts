@@ -29,13 +29,13 @@ import { DarkModeService } from './layout/darkMode/darkMode.service';
   ],
   template: `
      
-    <div *ngIf="isLoading" class="flex justify-center items-center h-screen">
+    <!-- <div *ngIf="isLoading" class="flex justify-center items-center h-screen">
       <div
         class="border-4 border-black dark:border-gray-300 rounded-lg w-12 h-12 animate-spin"
       ></div>
-    </div>
-
-    <div *ngIf="!isLoading"
+    </div> -->
+    <!-- *ngIf="!isLoading" -->
+    <div 
       [ngClass]="{
         'bg-[url(/background/dark.png)]  opacity-100':
           (darkModeService.isDarkMode$ | async),
@@ -70,9 +70,9 @@ export class AppComponent {
   isLoading = true;
 
   constructor(public darkModeService: DarkModeService) {
-    setTimeout(() => {
-      this.isLoading = false;
-    }, 2500); // 
+    // setTimeout(() => {
+    //   this.isLoading = false;
+    // }, 2500); 
   }
 
 }
