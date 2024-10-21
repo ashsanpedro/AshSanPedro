@@ -7,9 +7,7 @@ import { Component, AfterViewInit, ElementRef } from "@angular/core";
   template: `
     <div class="flex flex-col w-full h-full">
 
-      <h1 class="h-[30%] w-full">Tech i love ganon ganon</h1>
-
-      <div class="logos h-[70%] w-full rounded-2xl p-2 shadow-lg
+      <div class="logos h-[70%] w-full rounded-xl p-2 shadow-lg
       backdrop-blur bg-gunsmoke-50 bg-opacity-40 dark:bg-gunsmoke-900 dark:bg-opacity-40">
         <div class="wrapper w-full h-full relative overflow-hidden ">
           <div class="item item1"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"/></div>
@@ -28,8 +26,9 @@ import { Component, AfterViewInit, ElementRef } from "@angular/core";
           <div class="item item14"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg"/></div>
           <div class="item item15"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/jira/jira-original.svg" /></div>
           <div class="item item16"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" /></div>
-          
         </div>
+
+        <!-- <h1 class="h-[30%] w-full mt-4 text-center">TECH I <i class="fa-solid fa-heart text-red-600"></i></h1> -->
       </div>
 
     </div>
@@ -53,8 +52,8 @@ import { Component, AfterViewInit, ElementRef } from "@angular/core";
 }
 
 .item {
-  width: 60px;
-  height: 60px;
+  width: 48px;
+  height: 48px;
   position: absolute;
   left: max(calc(200px * 8), 100%);
   animation: scrollLeft 30s linear infinite;

@@ -12,7 +12,7 @@ import { Component } from "@angular/core";
           <div class="flex items-center justify-center mr-4">
           <i class="fa-solid fa-magnifying-glass text-xl text-black dark:text-white"></i>
           </div>
-          <p class="text-xl tracking-wider font-semibold font-sans text-gunsmoke-900 w-full uppercase border-r-4 border-gunsmoke-900 whitespace-nowrap overflow-hidden animate-typing dark:text-gunsmoke-50 dark:border-gunsmoke-50">
+          <p class="text-xl tracking-wider font-semibold font-sans text-gunsmoke-900 w-full uppercase border-r-4 border-gunsmoke-900 whitespace-nowrap overflow-hidden animate-typing dark:text-gunsmoke-100 dark:border-gunsmoke-100">
             Frontend Web Developer
           </p>
         </div>

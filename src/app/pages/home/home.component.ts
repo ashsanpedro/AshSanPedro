@@ -20,7 +20,7 @@ import { SearchBar } from '../../cards-home/searchBar';
         <profile class="w-full h-[80%] cursor-pointer"></profile>
 
         <!-- Search Bar -->
-        <searchbar class="flex items-center justify-center w-full h-[17%] rounded-lg shadow-lg backdrop-blur  border-none 
+        <searchbar class="flex items-center justify-center w-full h-[17%] rounded-lg shadow-lg backdrop-blur  border-none cursor-pointer
         bg-opacity-70 bg-gunsmoke-50
         dark:bg-gunsmoke-900 dark:bg-opacity-60 dark:shadow-md"></searchbar>
     </div>
@@ -35,7 +35,7 @@ import { SearchBar } from '../../cards-home/searchBar';
         bg-gunsmoke-50 bg-opacity-70 
         dark:bg-gunsmoke-900 dark:bg-opacity-60 dark:shadow-md"></div>
 
-        <div class="row-span-7 col-start-5 rounded-xl backdrop-blur-sm bg-gunsmoke-900 bg-opacity-50 border border-gunsmoke-600"></div>
+        <div class="row-span-7 col-start-5 rounded-xl backdrop-blur-lg bg-gunsmoke-900 bg-opacity-20 border border-gunsmoke-600"></div>
 
         <div class="col-span-2 col-start-3 row-start-4 rounded-lg shadow-md backdrop-blur 
         bg-gunsmoke-50 bg-opacity-70 
@@ -68,7 +68,7 @@ import { SearchBar } from '../../cards-home/searchBar';
   </div>
 
   <!-- Tech Stack -->
-  <div class="h-[110px] w-full mt-2" >
+  <div class="h-[90px] w-full mt-4" >
       <techstack></techstack>
   </div>
 
