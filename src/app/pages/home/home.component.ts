@@ -35,7 +35,9 @@ import { SearchBar } from '../../cards-home/searchBar';
         bg-gunsmoke-50 bg-opacity-70 
         dark:bg-gunsmoke-900 dark:bg-opacity-60 dark:shadow-md"></div>
 
-        <div class="row-span-7 col-start-5 rounded-xl backdrop-blur-lg bg-gunsmoke-900 bg-opacity-20 border border-gunsmoke-600"></div>
+        <div class="row-span-7 col-start-5 rounded-xl shadow-md backdrop-blur
+       bg-gunsmoke-50 bg-opacity-70
+       dark:bg-gunsmoke-900 dark:bg-opacity-60 dark:shadow-md"></div>
 
         <div class="col-span-2 col-start-3 row-start-4 rounded-lg shadow-md backdrop-blur 
         bg-gunsmoke-50 bg-opacity-70 
