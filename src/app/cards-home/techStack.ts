@@ -8,7 +8,7 @@ import { Component, AfterViewInit, ElementRef } from "@angular/core";
     <div class="flex flex-col w-full h-full">
 
       <div class="logos h-[70%] w-full rounded-xl p-2 shadow-lg
-      backdrop-blur bg-gunsmoke-50 bg-opacity-40 dark:bg-gunsmoke-900 dark:bg-opacity-40">
+      backdrop-blur bg-gunsmoke-50 bg-opacity-40 dark:bg-gunsmoke-500 dark:bg-opacity-20">
         <div class="wrapper w-full h-full relative overflow-hidden ">
           <div class="item item1"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg"/></div>
           <div class="item item2"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg"/></div>
