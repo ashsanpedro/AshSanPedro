@@ -54,18 +54,23 @@ import {
         animation: floating 3s ease-in-out infinite;
     }
     
+
     `
 })
 export class Profile {
     
     openPdf() {
         window.open('./assets/Ash_CV.pdf', '_blank');
-      }
-    
+    }
+
     readonly dialog = inject(MatDialog);
 
     openAshCV() {
-      this.dialog.open(CVDialogComponent);
+      this.dialog.open(CVDialogComponent, {
+        width: '1250px',
+        height: '580px',
+        maxWidth: 'none',
+      });
     }
 
   
