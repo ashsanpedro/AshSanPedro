@@ -1,5 +1,7 @@
 # AshSanPedro
 
+My portfolio showcases my journey as a developer, highlighting projects and skills in web development. Built with Angular and styled with Tailwind CSS, it’s a modern, responsive site that reflects my expertise in TypeScript and attention to clean, dynamic design.
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.4.
 
 ## Development server
